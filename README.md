@@ -5,15 +5,18 @@ picture-matching contains a server and a client.so users can play together throu
 how to run
 ------------
 * start server
-* modify /client/set.ini ```IP=your server ip```
+* modify /client/set.ini 
+```IP=your server ip```
 * start client
 * login 
-```default user:
+```
+default user:
 	id:1
 	password:123
 
     id:2
-    password:123```
+    password:123
+```
 * enjoy : )
 
 
