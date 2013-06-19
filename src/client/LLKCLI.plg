@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LLKCLI - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/LLKCLI.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\Administrator\桌面\连连看-何伟伟-郑成贺\src\client\LLKCLI.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/LLKCLI.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\连连看-何伟伟-郑成贺\src\client\GifAnimation.cpp"
+"C:\Documents and Settings\Administrator\桌面\连连看-何伟伟-郑成贺\src\client\LLKBgReady.cpp"
+"C:\Documents and Settings\Administrator\桌面\连连看-何伟伟-郑成贺\src\client\LLKChangePwd.cpp"
+"C:\Documents and Settings\Administrator\桌面\连连看-何伟伟-郑成贺\src\client\LLKCLI.cpp"
+"C:\Documents and Settings\Administrator\桌面\连连看-何伟伟-郑成贺\src\client\LLKCLIDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\连连看-何伟伟-郑成贺\src\client\LLKGame.cpp"
+"C:\Documents and Settings\Administrator\桌面\连连看-何伟伟-郑成贺\src\client\LLKHome.cpp"
+"C:\Documents and Settings\Administrator\桌面\连连看-何伟伟-郑成贺\src\client\LLKReg.cpp"
+"C:\Documents and Settings\Administrator\桌面\连连看-何伟伟-郑成贺\src\client\Scorelist.cpp"
+"C:\Documents and Settings\Administrator\桌面\连连看-何伟伟-郑成贺\src\client\SockThd.cpp"
+"C:\Documents and Settings\Administrator\桌面\连连看-何伟伟-郑成贺\src\client\winimage.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/LLKCLI.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\连连看-何伟伟-郑成贺\src\client\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/LLKCLI.pdb" /debug /machine:I386 /out:"Debug/LLKCLI.exe" /pdbtype:sept 
+".\Debug\GifAnimation.obj"
+".\Debug\LLKBgReady.obj"
+".\Debug\LLKChangePwd.obj"
+".\Debug\LLKCLI.obj"
+".\Debug\LLKCLIDlg.obj"
+".\Debug\LLKGame.obj"
+".\Debug\LLKHome.obj"
+".\Debug\LLKReg.obj"
+".\Debug\Scorelist.obj"
+".\Debug\SockThd.obj"
+".\Debug\StdAfx.obj"
+".\Debug\winimage.obj"
+".\Debug\LLKCLI.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GifAnimation.cpp
+LLKBgReady.cpp
+LLKChangePwd.cpp
+LLKCLI.cpp
+LLKCLIDlg.cpp
+LLKGame.cpp
+LLKHome.cpp
+LLKReg.cpp
+Scorelist.cpp
+SockThd.cpp
+winimage.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A1.tmp" with contents
+[
+/nologo /o"Debug/LLKCLI.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\GifAnimation.sbr"
+".\Debug\LLKBgReady.sbr"
+".\Debug\LLKChangePwd.sbr"
+".\Debug\LLKCLI.sbr"
+".\Debug\LLKCLIDlg.sbr"
+".\Debug\LLKGame.sbr"
+".\Debug\LLKHome.sbr"
+".\Debug\LLKReg.sbr"
+".\Debug\Scorelist.sbr"
+".\Debug\SockThd.sbr"
+".\Debug\winimage.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A1.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+LLKCLI.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

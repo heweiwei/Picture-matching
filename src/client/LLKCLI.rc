@@ -1,0 +1,379 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\LLKCLI.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\LLKCLI.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 LLKCLI"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "LLKCLI 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2012",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_LLKCLI_LOGIN DIALOGEX 0, 0, 265, 184
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "LLKCLI"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "登录",IDC_BTN_TEST,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,214,159,41,14,WS_EX_TRANSPARENT
+    CONTROL         "注册",IDC_OUT,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,195,113,62,12,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_USER,35,112,155,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_PWD,36,131,155,14,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "修改密码",IDC_ChangePwd,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,194,131,62,12,WS_EX_TRANSPARENT
+    CONTROL         "更多选项",IDC_EXPAND,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,5,159,58,16,WS_EX_TRANSPARENT
+    CONTROL         147,IDC_STATIC,"Static",SS_BITMAP,0,0,265,184
+    LTEXT           "Static",IDC_GIF_ANIMATION,90,13,78,52
+END
+
+IDD_LLK_GAME DIALOG DISCARDABLE  0, 0, 365, 322
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "LLK_GAME"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_NUMBER,273,284,20,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_WANTRETURN | WS_DISABLED | NOT 
+                    WS_BORDER
+END
+
+IDD_GAMEHOME DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GAME_HOME"
+FONT 10, "System"
+BEGIN
+END
+
+IDD_READYBG DIALOGEX 0, 0, 420, 304
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 10, "System"
+BEGIN
+    CONTROL         "开始",IDC_START,"Button",BS_OWNERDRAW | WS_TABSTOP,311,
+                    271,32,14
+    CONTROL         "练习",IDC_TEST,"Button",BS_OWNERDRAW | WS_TABSTOP,353,
+                    271,32,14
+    CONTROL         "Cancel",IDC_CANCEL,"Button",BS_OWNERDRAW | NOT 
+                    WS_VISIBLE | WS_TABSTOP,367,4,27,11
+    EDITTEXT        IDC_EDIT_OUT,310,113,82,122,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | WS_DISABLED | NOT WS_BORDER | 
+                    WS_VSCROLL,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_ENTER,310,238,53,12,ES_AUTOHSCROLL
+END
+
+IDD_ADDUSER DIALOG DISCARDABLE  0, 0, 199, 133
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "注册"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "注册",IDOK,82,102,37,14
+    PUSHBUTTON      "取消",IDCANCEL,131,102,37,14
+    LTEXT           "用户名：",IDC_NAME,39,16,33,13
+    EDITTEXT        IDC_EDIT_NAME,92,14,62,12,ES_AUTOHSCROLL
+    LTEXT           "密码：",IDC_PWD,39,38,33,13
+    EDITTEXT        IDC_EDIT_PWD,92,36,62,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "性别：",IDC_SEX,39,85,35,13
+    CONTROL         "女",IDC_RADIO_MALE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,126,82,27,15
+    CONTROL         "男",IDC_RADIO_FEMALE,"Button",BS_AUTORADIOBUTTON,86,82,
+                    27,15
+    EDITTEXT        IDC_EDIT_REPWD,92,59,62,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "密码确认：",IDC_PWD2,39,61,41,8
+END
+
+IDD_CHANGEPWD DIALOG DISCARDABLE  0, 0, 201, 122
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "修改密码"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定修改",IDOK,158,84,36,14
+    PUSHBUTTON      "取消",IDCANCEL,158,101,36,14
+    LTEXT           "原密码：",IDC_PWDOLD,40,40,32,13
+    LTEXT           "新密码：",IDC_PWDNEW,40,63,35,13
+    LTEXT           "确认密码：",IDC_PWDTWICE,40,87,43,13
+    EDITTEXT        IDC_EDIT_PWD,85,37,54,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_REPWD,85,61,54,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_REPWD2,85,85,54,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "用户名：",IDC_NAME,40,19,33,8
+    EDITTEXT        IDC_EDIT_USER,85,16,54,12,ES_AUTOHSCROLL
+END
+
+IDD_SCORE_LIST DIALOG DISCARDABLE  0, 0, 299, 94
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "System"
+BEGIN
+    CONTROL         "CANCEL",IDC_CANCEL,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    265,2,18,13
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "LLKCLI Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "LLKCLI\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2012\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "LLKCLI.EXE\0"
+            VALUE "ProductName", "LLKCLI 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_LLKCLI_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 177
+    END
+
+    IDD_LLK_GAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 358
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 315
+    END
+
+    IDD_GAMEHOME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_READYBG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 413
+        VERTGUIDE, 235
+        BOTTOMMARGIN, 297
+    END
+
+    IDD_ADDUSER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 192
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 126
+    END
+
+    IDD_CHANGEPWD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 115
+    END
+
+    IDD_SCORE_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 292
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_GAME_BG             BITMAP  DISCARDABLE     "res\\bkimage.bmp"
+IDB_GAME_BOX            BITMAP  DISCARDABLE     "res\\gamebox2.bmp"
+IDB_GAME_LOGIN_BUTTON   BITMAP  DISCARDABLE     "res\\botton.bmp"
+IDB_GAME_BOOM           BITMAP  DISCARDABLE     "res\\boom33x38.bmp"
+IDB_GAME_LIGHT          BITMAP  DISCARDABLE     "res\\lighting.bmp"
+IDB_HOME                BITMAP  DISCARDABLE     "res\\home.bmp"
+IDB_HOME_TABLE          BITMAP  DISCARDABLE     "res\\table.bmp"
+IDB_HOME_TABLE_ON       BITMAP  DISCARDABLE     "res\\table_ON.bmp"
+IDB_HOME_TABLE_OFF      BITMAP  DISCARDABLE     "res\\tablen.bmp"
+IDB_HOME_FACE1          BITMAP  DISCARDABLE     "res\\1-1.bmp"
+IDB_READY_PLAYER        BITMAP  DISCARDABLE     "res\\readyplayer.bmp"
+IDB_GAME_TOOL           BITMAP  DISCARDABLE     "res\\tool.bmp"
+IDB_GAME_LOGIN_DOWN     BITMAP  DISCARDABLE     "res\\botton_down.bmp"
+IDB_GAME_ADDUSER        BITMAP  DISCARDABLE     "res\\newuser.bmp"
+IDB_GAME_ADDUSER_DOWN   BITMAP  DISCARDABLE     "res\\newuser_down.bmp"
+IDB_GAME_CHANGEPWD      BITMAP  DISCARDABLE     "res\\changePwd.bmp"
+IDB_GAME_CHANGEPWD_DOWN BITMAP  DISCARDABLE     "res\\changePwd_down.bmp"
+IDB_GAME_EXPAND         BITMAP  DISCARDABLE     "res\\expand.bmp"
+IDB_GAME_EXPANG_DOWN    BITMAP  DISCARDABLE     "res\\expand_down.bmp"
+IDB_READY_BG2           BITMAP  DISCARDABLE     "res\\ReadyInterface2.bmp"
+IDB_GAME_START          BITMAP  DISCARDABLE     "res\\start.bmp"
+IDB_GAME_START_DOWN     BITMAP  DISCARDABLE     "res\\start_down.bmp"
+IDB_GAME_TEST           BITMAP  DISCARDABLE     "res\\test.bmp"
+IDB_GAME_TEST_DOWN      BITMAP  DISCARDABLE     "res\\test_down.bmp"
+IDB_GAME_CLOSE          BITMAP  DISCARDABLE     "res\\v4_close_normal.bmp"
+IDB_GAME_CLOSE_DOWN     BITMAP  DISCARDABLE     "res\\v4_close_down.bmp"
+IDB_HOME_FACE0          BITMAP  DISCARDABLE     "res\\mousemove.bmp"
+IDB_ADDUSER_BG          BITMAP  DISCARDABLE     "res\\bg.bmp"
+IDB_READY_BG            BITMAP  DISCARDABLE     "res\\bitmap2.bmp"
+IDB_HOME_DOWN           BITMAP  DISCARDABLE     "res\\mousedown.bmp"
+IDB_GAME_LOGIN          BITMAP  DISCARDABLE     "res\\PICer2012571038.bmp"
+IDB_GAME_SCORE_LIST     BITMAP  DISCARDABLE     "res\\Score_list.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 LLKCLI(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\LLKCLI.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
