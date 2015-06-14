@@ -1,9 +1,9 @@
 picture-matching
 ===
-this is a game,we called "连连看" in chinese.
+This is a game,we called "连连看" in chinese.
 
-picture-matching contains a server and a client.so users can play together through the Internet.
-how to run
+Picture-matching contains a server and a client, so users can play together through the Internet.
+How to run
 ------------
 * start server
 * modify /client/set.ini 
@@ -20,5 +20,4 @@ default user:
 ```
 * enjoy : )
 
-
-this is a very primer project.
+This is a very primer project written in MFC.
