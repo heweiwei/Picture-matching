@@ -2,7 +2,7 @@ picture-matching
 ===
 This is a game,we called "连连看" in chinese.
 
-Picture-matching contains a server and a client, so users can play together through the Internet.
+Picture-matching contains a server and a client, so you can play with others through the Internet.
 How to run
 ------------
 * start server
